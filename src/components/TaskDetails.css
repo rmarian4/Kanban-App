@@ -1,0 +1,142 @@
+.taskDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.taskDetails > input {
+    background-color: #645fc6;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.taskDetails > input:hover {
+    background-color: #514d80 ;
+}
+
+.closeDetails {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeDetails > .MuiSvgIcon-root,
+.taskOptions > .MuiSvgIcon-root {
+    color: #6b6e7b;
+    cursor: pointer;
+}
+
+.taskTitleContainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskTitle {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.taskOptions {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.taskDescription {
+    margin-top: 15px;
+}
+
+.taskDescription > p {
+    font-size: 15px;
+    color: #6b6e7b;
+    font-weight: 700;
+}
+
+.subtasks{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.statusContainer {
+    margin-top: 15px;
+}
+
+.subtasks > h5,
+.statusContainer > h5,
+.assignedUserContainer > h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.subtaskContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #21212D;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.subtaskDescription {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* form-check-input class changes appearence of check box */
+.form-check-input {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;;
+}
+
+.form-check-input:checked {
+    background-color: #645fc6;
+    border-color: #645fc6;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.assignedUserContainer {
+    margin-top: 15px;
+}
+
+
+.taskOptionsContainer {
+    position: absolute;
+    right: 0;
+    background-color: #21212D;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.taskOptionsContainer:hover {
+    background-color: #33333e;
+}
+
+.userRemovedErr {
+    color: red;
+    font-size: 14px;
+}
+
+

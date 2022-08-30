@@ -1,0 +1,39 @@
+.tasksColumn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.status{
+    color: #6b6e7b;
+    /* margin-bottom: 15px; */
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+
+.statusTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    min-width: 150px;
+}
+
+.statusTitle > h5 {
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.statusTitle > .MuiSvgIcon-root {
+    color:#6b6e7b;
+    cursor: pointer;
+}
+
+.colorDot {
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+    /* background-color: orangered; */
+    margin-right: 5px;
+}

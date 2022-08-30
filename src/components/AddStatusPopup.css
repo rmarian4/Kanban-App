@@ -1,0 +1,71 @@
+.addStatus .closePopup {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.addStatus {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.addStatus .closePopup .MuiSvgIcon-root {
+    color: #6b6e7b;
+    cursor: pointer;
+}
+
+.addStatus > h3{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.addStatus > input {
+    background-color: #645fc6;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.addStatus > input:hover {
+    background-color: #514d80 ;
+}
+
+
+
+
+.statusInputContainer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.statusInputContainer > input{
+    flex:1;
+    background: transparent;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    /* color: #6b6e7b */
+    color: whitesmoke;
+    border: 1px solid #6b6e7b;
+
+}
+
+.statusInputContainer > input:focus {
+    outline: none;
+}
+
+.addStatus_errors {
+    color: red;
+    font-size: 14px;
+}

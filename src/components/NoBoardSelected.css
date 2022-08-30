@@ -1,0 +1,19 @@
+.noBoardSelected {
+    display: flex;
+    flex: 0.8;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #21212D;
+}
+
+.noBoardSelected > h2 {
+    color: #2c2c38;
+    font-weight: 700;
+}
+
+@media (max-width: 400px) {
+    .noBoardSelected > h2 {
+        font-size: 18px;
+    }
+}

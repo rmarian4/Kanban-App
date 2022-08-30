@@ -1,0 +1,81 @@
+.pagelayoutNoBoardSelected {
+    height: 100vh;
+    display: flex;
+}
+
+.pagelayoutNoBoardSelectedMobile {
+    display: none;
+}
+
+@media(max-width: 650px){
+    .pagelayoutNoBoardSelected{
+        display: none;
+    }
+
+    .pagelayoutNoBoardSelectedMobile{
+        display: block;
+        flex: 0.85;
+    }
+
+    .selectBoardContainer {
+        position: sticky;
+        top: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .selectBoardContainer > .MuiSvgIcon-root {
+        color: #645fc6;
+    }
+
+    .selectBoardContainer .dropdown-toggle {
+        border-color: #2c2c38 !important;
+    }
+
+    .selectBoardContainer .dropdown-toggle:focus {
+        border-color: #6b6e7b !important;
+    }
+
+
+    .topMenuNoBoardSelected {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2c2c38;
+        flex: 0.15;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .addBoard {
+        font-weight: 700;
+        font-size: 13px;
+        padding-right: 17px;
+        padding-left: 17px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 20px;
+        border: none;
+        background-color: #645fc6;
+        color: white;
+        cursor: pointer;
+        /* margin-right: 5px; */
+    }
+
+    .logoutOption {
+        position: absolute;
+        top: 12%;
+        right: 0;
+        background-color: #21212D;
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid whitesmoke;
+    }
+
+    .menuOptions > .MuiSvgIcon-root {
+        color: #6b6e7b;
+    }
+}

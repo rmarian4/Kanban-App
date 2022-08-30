@@ -1,0 +1,120 @@
+.boardTitle {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.boardTitleMobile {
+    display: none;
+}
+
+
+.boardOptions {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.boardOptions .MuiSvgIcon-root {
+    color: #6b6e7b !important;
+}
+
+.addTaskBtn {
+    font-weight: 700;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #645fc6;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.addTaskBtn:hover {
+    background-color:#514d80; 
+}
+
+.addTaskBtnMobile {
+    font-weight: 700;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #645fc6;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    display: none;
+}
+
+.addTaskBtnMobile:hover {
+    background-color: #514d80;
+}
+
+
+.moreOptions {
+    cursor: pointer;
+}
+
+.logoutContainer {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .boardTitle {
+        display: none;
+    }
+
+    .addTaskBtn {
+        display: none;
+    }
+
+    .boardTitleMobile {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .boardTitleMobile > .MuiSvgIcon-root {
+        color: #645fc6;
+    }
+
+    .boardTitleMobile .dropdown-toggle {
+        border-color: #2c2c38 !important;
+    }
+
+    .boardTitleMobile .dropdown-toggle:focus {
+        border-color: #6b6e7b !important;
+    }
+
+    .addTaskBtnMobile {
+        display: block;
+    }
+
+    .logoutContainer {
+        display: flex;
+    }
+
+    .logoutOptionBoardSelected {
+        position: absolute;
+        top: 70%;
+        right: 0;
+        background-color: #21212D;
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid whitesmoke;
+    }
+
+    .boardTopMenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

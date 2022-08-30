@@ -1,0 +1,59 @@
+.removeUserPopup {
+    display: flex;
+    flex-direction: column;
+}
+
+.removeUserPopup > h3 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.closeRemoveUserPopup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.closeRemoveUserPopup > .MuiSvgIcon-root {
+    color: #6b6e7b;
+    cursor: pointer;
+}
+
+.usersListContainer {
+    margin-top: 10px;
+}
+
+.userContainer {
+    display: flex;
+    align-items: center;
+    background-color: #21212D;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    overflow-wrap: anywhere;
+}
+
+.userInfo {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.removeUsersBtn {
+    width: 100%;
+    background-color: #645fc6;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.removeUsersBtn:hover {
+    background-color: #514d80;
+}

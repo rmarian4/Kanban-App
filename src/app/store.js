@@ -1,8 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import userReducer from '../features/userSlice';
+import kanbanBoardReducer from '../features/kanbanBoardSlice';
+import selectedTaskSlice from '../features/selectedTaskSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    user: userReducer,
+    kanbanBoard: kanbanBoardReducer,
+    selectedTask: selectedTaskSlice,
   },
 });

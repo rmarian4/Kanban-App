@@ -1,0 +1,29 @@
+.task {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #2c2c38;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+
+.task > .taskTitle {
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+.subTasks {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color:#6b6e7b;
+}

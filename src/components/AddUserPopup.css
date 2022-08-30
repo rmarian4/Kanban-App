@@ -1,0 +1,55 @@
+.closeUserPopup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.closeUserPopup > .MuiSvgIcon-root {
+    color:#6b6e7b;
+    cursor: pointer;
+}
+
+.popupTitle {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inputContainer > input {
+    width: 100%;
+    background: transparent;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 1px solid #6b6e7b;
+    margin-top: 10px;
+}
+
+.inputContainer > input:focus {
+    outline: none;
+}
+
+.submitUserEmail {
+    width: 100%;
+    background-color: #645fc6;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.submitUserEmail:hover {
+    background-color: #514d80;
+}
+
+.submitError {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 0;
+}

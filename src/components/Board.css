@@ -1,0 +1,120 @@
+.board {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    overflow-x: auto;
+}
+
+.topMenu {
+    flex: 0.15;
+    background-color: #2c2c38;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #434345;
+    position: sticky;
+    top: 0px;
+    /* z-index: 100; */
+    /* max-height: 100px; */
+}
+
+.boardTitle {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.boardOptions {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.addTaskBtn {
+    font-weight: 700;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #645fc6;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.addTaskBtn:hover {
+    background-color:#514d80; 
+}
+
+.boardOptions .MuiSvgIcon-root {
+    color: #6b6e7b !important;
+}
+
+.moreOptions {
+    cursor: pointer;
+}
+
+.boardTasks {
+    /* position: fixed; */
+    /* top: 100px; */
+    width: 100%;
+    height: 100%;
+    background-color: #21212D;
+    display: flex;
+    flex: 0.85;
+    /* flex-grow: 1; */
+    overflow: auto;
+}
+
+.boardBottom {
+    height: 15px;
+    background-color: #21212D;
+}
+
+.boardRight {
+    width: 35px;
+    background-color: #21212D;
+}
+
+.addNewColContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 80%; */
+    background-color: #242430;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top: 67px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 10px;
+}
+
+.addNewColumnBtn {
+    color:#666573;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.addNewColumnBtn:hover {
+    color: whitesmoke;
+}
+
+@media (max-width: 650px) {
+    .board {
+        flex: 1;
+    }
+}
+
+
+
+
+
+
+

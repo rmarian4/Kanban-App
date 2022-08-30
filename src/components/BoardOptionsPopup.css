@@ -1,0 +1,86 @@
+.boardOptionsPopup {
+    display: flex;
+    flex-direction: column;
+}
+
+.closePopup {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closePopup > .MuiSvgIcon-root {
+    color: #6b6e7b;
+    cursor: pointer;
+}
+
+.boardOptionsMenu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBoardContainer,
+.addUserToBoardContainer,
+.removeUserFromBoard {
+    display: flex;
+    align-items: top;
+    color: #6b6e7b;
+    margin-right: 10px;
+}
+
+.deleteBoardContainer > p,
+.addUserToBoardContainer > p,
+.removeUserFromBoard > p {
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.deleteBoardContainer:hover,
+.addUserToBoardContainer:hover,
+.removeUserFromBoard:hover {
+    color: whitesmoke;
+}
+
+.logout {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .deleteBoardContainer > p,
+    .addUserToBoardContainer > p,
+    .removeUserFromBoard > p {
+        font-size: 13px;
+    }
+
+    .logout{
+        display: flex;
+        align-items: top;
+        color: #6b6e7b;
+        margin-right: 10px;
+    }
+
+    .logout > p {
+        margin-left: 8px;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+
+    .logout:hover {
+        color: whitesmoke
+    }
+
+    .boardOptionsMenu {
+        flex-direction: column; 
+    }
+
+    .addUserToBoardContainer,
+    .removeUserFromBoard,
+    .logout {
+        margin-top: 10px;
+    }
+}
