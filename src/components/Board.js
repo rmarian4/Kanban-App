@@ -65,17 +65,14 @@ const Board = () => {
         if(board === null && location !== '/') {
             let id = location.pathname.slice(1) //get rid of '/' char in the path name
             dispatch(fetchBoard(id))
+            .catch(err => {
+                if(err.response.status === 403) {
+                    navigate("/")
+                }
+            })
         } 
       }, [])
 
-
-    useEffect(() => {
-        if(board !== null && board.owner.id !== user.id && board.usersAddedToBoard.filter(u => u.id === u.id).length === 0) { //check if user has been removed from board
-            navigate("/")
-            dispatch(resetToInitialState())
-            dispatch(fetchUser(user.id))
-        }
-    }, [board])
 
 
     
