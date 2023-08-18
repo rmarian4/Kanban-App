@@ -20,7 +20,6 @@ const Login = () => {
     const signIn = () => {
         signInWithPopup(auth, provider)
         .then(({user}) => {
-            console.log(user)
             dispatch(logIn(user.uid))
             .catch(error => {
                 //if error when fetching user then that means this is a new user logging in

@@ -1,7 +1,7 @@
 import axios from "axios";
 import {auth} from '../firebase/firebase';
 
-const baseUrl = "https://localhost:7298/api/KanbanApp/users";
+const baseUrl = "http://159.203.24.243:5001/api/KanbanApp/users";
 
 export const getUser = async (userId) => {
     const token = await auth.currentUser.getIdToken();
